@@ -15,7 +15,6 @@ html, body {
   margin: auto;
 }
 
-
 /*---------- HEADER ----------*/
 
 header {
@@ -23,7 +22,6 @@ header {
   width: 100%;
   background: #e3e3e3;
 }
-
 
 /*---------- CONTENT AREA ----------*/
 
@@ -54,9 +52,7 @@ footer {
   background: #e3e3e3;
 }
 
-
 /*---------- TABLET ----------*/
-/* Change the background colors below */
 
 @media (min-width: 768px) {
   header {
@@ -73,14 +69,18 @@ footer {
 
   #column-3 {
     background-color: #ccff33;
+    width: 100%;
   }
 
   footer {
     background-color: #666699;
   }
   
+    .col-3 {
+    width: 50%;
+  }
+  
 }
-
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
@@ -98,10 +98,15 @@ footer {
 
   #column-3 {
     background-color: #00ff99;
+    width: 33.33%;
   }
 
   footer {
     background-color: #33334d;
+  }
+   
+     .col-3 {
+    width: 33.33%;
   }
    
 }
